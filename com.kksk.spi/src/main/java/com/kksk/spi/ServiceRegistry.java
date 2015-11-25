@@ -22,11 +22,11 @@ public abstract class ServiceRegistry<Key, ProvidableService> {
 	}
 
 	public Map<Key, ProvidableService> getServiceMap() {
-		return null;
+		return getServiceMap(null);
 	}
 
 	public ProvidableService getService(Key key) {
-		return null;
+		return getServiceMap().get(key);
 	}
 
 	protected abstract ServiceProviderRegistry<Key, ProvidableService> getServiceProviderRegistry();
