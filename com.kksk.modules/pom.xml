@@ -10,6 +10,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
+		<module>../com.kksk.spi</module>
 		<module>../com.kksk.identify</module>
 		<module>../com.kksk.serialize</module>
 		<module>../com.kksk.execution</module>
