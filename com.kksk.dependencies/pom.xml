@@ -16,6 +16,26 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+				<groupId>com.kksk</groupId>
+				<artifactId>spi</artifactId>
+				<version>${com.kksk.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.kksk</groupId>
+				<artifactId>identify</artifactId>
+				<version>${com.kksk.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.kksk</groupId>
+				<artifactId>serialize</artifactId>
+				<version>${com.kksk.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.kksk</groupId>
+				<artifactId>execution</artifactId>
+				<version>${com.kksk.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>commons-net</groupId>
 				<artifactId>commons-net</artifactId>
 				<version>3.3</version>
